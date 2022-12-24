@@ -1,0 +1,96 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.banner{
+  margin: 0 auto;
+  width: fit-content;
+  height: 480px;
+  margin-bottom: 50px;
+}
+.banner img{
+  height: 100%;
+  width: 100%;
+}
+
+.home_card_list {
+    padding-bottom: 160px
+}
+
+
+.shortcut_item {
+    text-align: center;
+    display: inline-block;
+    cursor: pointer
+}
+
+.shortcut_item_img_wrap {
+    position: relative
+}
+
+.shortcut_item_img_wrap>.shortcut_item_img_bg {
+    overflow: hidden;
+    height: 100%
+}
+
+.shortcut_item_img_wrap:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: rgba(34, 34, 34, .05)
+}
+
+.shortcut_item_title {
+    font-size: 15px;
+    letter-spacing: -.15px;
+    color: #333;
+    margin-top: 8px
+}
+
+.lg .shortcut_item_img_wrap {
+    height: 100px
+}
+
+.lg .shortcut_item_img_wrap,
+.lg .shortcut_item_img_wrap:after {
+    border-radius: 10px
+}
+
+.lg .shortcut_item_img_wrap>.shortcut_item_img_bg {
+    border-radius: 9px
+}
+
+.image {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    image-rendering: auto;
+    border-radius: 9px;
+}
+ 
+.shortcut_item_wrap {
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-row-gap: 16px;
+    row-gap: 16px;
+    grid-column-gap: 8px;
+    column-gap: 8px
+}
+
+.product_title+.shortcut_item_wrap {
+    margin-top: 20px
+}
+
+.shortcut_collection {
+    margin-top: 50px;
+    padding-top: 0;
+    padding-bottom: 0
+}
