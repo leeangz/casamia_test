@@ -1,124 +1,125 @@
-.banner {
-    overflow: hidden;
-    vertical-align: top;
+.section {
+	margin-top: 100px;
+}
+
+.section input[id*="slide"] {
+	display: none;
+}
+
+.section .slidewrap {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.section .slidelist {
+	white-space: nowrap;
+	font-size: 0;
+	overflow: hidden;
+	position: relative;
+	padding-left: 0px;
+}
+
+.section .slidelist>li {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	transition: all .5s;
+}
+
+.section .slidelist>li>a {
+	display: block;
+	position: relative;
+}
+
+.section .slidelist>li>a img {
+	width: 100%;
+}
+
+.section .slidelist label {
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 50px;
+	cursor: pointer;
+	opacity: 0.3;
+}
+
+/* input에 체크되면 슬라이드 효과 */
+.section input[id="slide01"]:checked ~ .slidewrap .slidelist>li {
+	transform: translateX(0%);
+}
+
+.section input[id="slide02"]:checked ~ .slidewrap .slidelist>li {
+	transform: translateX(-100%);
+}
+
+.section input[id="slide03"]:checked ~ .slidewrap .slidelist>li {
+	transform: translateX(-200%);
+}
+
+
+/* 좌,우 슬라이드 버튼 */
+.slide-control>div {
+	display: none;
+}
+
+.section .left {
+	left: 30px;
+	background: url('/resources/img/left.png') center center/100% no-repeat;
+}
+
+.section .right {
+	right: 30px;
+	background: url('/resources/img/right.png') center center/100% no-repeat;
+}
+
+.section input[id="slide01"]:checked ~ .slidewrap .slide-control>div:nth-child(1)
+	{
+	display: block;
+}
+
+.section input[id="slide02"]:checked ~ .slidewrap .slide-control>div:nth-child(2)
+	{
+	display: block;
+}
+
+.section input[id="slide03"]:checked ~ .slidewrap .slide-control>div:nth-child(3)
+	{
+	display: block;
+}
+
+/* 페이징 */
+.slide-pagelist {
+	text-align: center;
+}
+
+.slide-pagelist>li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.slide-pagelist>li>label {
+	display: block;
+    padding: 8px 8px;
+    border-radius: 30px;
+    background: #ccc;
+    margin: 10px 10px;
     cursor: pointer;
-    max-height: 480px
 }
 
-.banner .banner_item {
-    position: relative
+.section input[id="slide01"]:checked ~ .slidewrap .slide-pagelist>li:nth-child(1)>label
+	{
+	background: #999;
 }
 
-.banner .banner_item:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: transparent
+.section input[id="slide02"]:checked ~ .slidewrap .slide-pagelist>li:nth-child(2)>label
+	{
+	background: #999;
 }
 
-.banner .item_inner {
-    margin: 0 auto;
-    width: 45vw;
-    max-height: 480px
+.section input[id="slide03"]:checked ~ .slidewrap .slide-pagelist>li:nth-child(3)>label
+	{
+	background: #999;
 }
 
-.banner .img_box {
-    position: relative;
-    padding-top: 100%
-}
-
-.banner .banner_img {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    height: 100%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    max-height: 480px
-}
-
-.banner .banner_img.banner_have_title {
-    -webkit-transform: translateX(-42%) translateY(-10%) rotate(25deg) !important;
-    transform: translateX(-42%) translateY(-10%) rotate(25deg) !important;
-    -webkit-filter: drop-shadow(15px 25px 7px rgba(0, 0, 0, .1));
-    filter: drop-shadow(15px 25px 7px rgba(0, 0, 0, .1))
-}
-
-.banner .title_box {
-    position: absolute;
-    bottom: 60px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    margin: 0 auto;
-    max-width: 500px
-}
-
-.banner .title {
-    font-size: 32px;
-    letter-spacing: -.16px;
-    font-weight: 700;
-    color: #fff
-}
-
-.banner .sub_title {
-    margin-top: 5px;
-    letter-spacing: -.15px;
-    color: hsla(0, 0%, 100%, .8);
-    font-size: 15px
-}
-
-.banner .item_inner,
-.banner .item_inner {
-    width: 100%;
-    height: auto
-}
-
-.banner .title_box,
-.banner .title_box {
-    bottom: 39px;
-    max-width: 300px
-}
-
-.banner .title,
-.banner .title {
-    overflow: hidden;
-    max-height: 56px;
-    line-height: 28px;
-    font-size: 24px
-}
-
-.banner .sub_title,
-.banner .sub_title {
-    font-size: 12px;
-    letter-spacing: -.06px;
-    margin-top: 3px
-}
-
-.banner .img_box {
-    position: relative;
-    padding-top: 0
-}
-
-.banner .banner_img {
-    position: unset;
-    width: 100%;
-    height: auto;
-    max-height: 480px;
-    -webkit-transform: unset;
-    transform: unset
-}
-
-.wrap.disable .banner .title_box {
-    left: auto;
-    right: auto
-}
-
-.banner_slide {
-    overflow: hidden;
-    position: relative;
-    max-height: 480px
-}

@@ -2,7 +2,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-.banner{
+/* .banner{
   margin: 0 auto;
   width: fit-content;
   height: 480px;
@@ -11,7 +11,7 @@ body {
 .banner img{
   height: 100%;
   width: 100%;
-}
+} */
 
 .home_card_list {
     padding-bottom: 160px
@@ -59,12 +59,7 @@ body {
     border-radius: 10px
 }
 
-.lg .shortcut_item_img_wrap>.shortcut_item_img_bg {
-    border-radius: 9px
-}
-
 .image {
-    -o-object-fit: cover;
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -81,8 +76,7 @@ body {
     grid-template-columns: repeat(5, minmax(0, 1fr));
     grid-row-gap: 16px;
     row-gap: 16px;
-    grid-column-gap: 8px;
-    column-gap: 8px
+    grid-column-gap: 16px;
 }
 
 .product_title+.shortcut_item_wrap {
@@ -90,7 +84,7 @@ body {
 }
 
 .shortcut_collection {
-    margin-top: 50px;
+    margin-top: 20px;
     padding-top: 0;
     padding-bottom: 0
 }
