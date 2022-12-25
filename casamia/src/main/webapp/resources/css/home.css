@@ -12,79 +12,78 @@ body {
   height: 100%;
   width: 100%;
 } */
-
 .home_card_list {
-    padding-bottom: 160px
+	padding-bottom: 30px;
 }
 
-
 .shortcut_item {
-    text-align: center;
-    display: inline-block;
-    cursor: pointer
+	text-align: center;
+	display: inline-block;
+	cursor: pointer
 }
 
 .shortcut_item_img_wrap {
-    position: relative
+	position: relative
 }
 
 .shortcut_item_img_wrap>.shortcut_item_img_bg {
-    overflow: hidden;
-    height: 100%
+	overflow: hidden;
+	height: 100%
 }
 
 .shortcut_item_img_wrap:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: rgba(34, 34, 34, .05)
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: rgba(34, 34, 34, .05)
 }
 
 .shortcut_item_title {
-    font-size: 15px;
-    letter-spacing: -.15px;
-    color: #333;
-    margin-top: 8px
+	font-size: 15px;
+	letter-spacing: -.15px;
+	color: #333;
+	margin-top: 8px
+}
+
+.lg {
+	box-shadow: 0 1px 0 0 rgb(0 0 0/ 10%);
 }
 
 .lg .shortcut_item_img_wrap {
-    height: 100px
+	height: 100px
 }
 
-.lg .shortcut_item_img_wrap,
-.lg .shortcut_item_img_wrap:after {
-    border-radius: 10px
+.lg .shortcut_item_img_wrap, .lg .shortcut_item_img_wrap:after {
+	border-radius: 10px
 }
 
 .image {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    image-rendering: auto;
-    border-radius: 9px;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	image-rendering: auto;
+	border-radius: 9px;
 }
- 
+
 .shortcut_item_wrap {
-    margin: 0 auto;
-    padding-left: 16px;
-    padding-right: 16px;
-    max-width: 1280px;
-    display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-    grid-row-gap: 16px;
-    row-gap: 16px;
-    grid-column-gap: 16px;
+	margin: 0 auto;
+	padding-left: 16px;
+	padding-right: 16px;
+	max-width: 1280px;
+	display: grid;
+	grid-template-columns: repeat(5, minmax(0, 1fr));
+	grid-column-gap: 16px;
 }
 
 .product_title+.shortcut_item_wrap {
-    margin-top: 20px
+	margin-top: 20px
 }
 
 .shortcut_collection {
-    margin-top: 20px;
-    padding-top: 0;
-    padding-bottom: 0
+	margin-top: 20px;
+	padding-top: 0;
+	padding-bottom: 0
 }

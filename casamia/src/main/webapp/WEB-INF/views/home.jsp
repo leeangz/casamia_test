@@ -22,9 +22,6 @@
 	<jsp:include page="includes/header.jsp"></jsp:include>
 	<div class="home lg">
 		<div class="home_card_list">
-			<!-- <div class="banner" style="margin-top: 100px;">
-				<img src="/resources/img/banner1.png" alt="" />
-			</div> -->
 			<jsp:include page="includes/banner.jsp"></jsp:include>
 
 			<div container-index="1" class="shortcut_collection">

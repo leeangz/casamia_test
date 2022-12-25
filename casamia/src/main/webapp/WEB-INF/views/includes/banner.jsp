@@ -16,12 +16,12 @@
 			</li>
 			<li class="slideitem">
 				<a>
-					<img src="/resources/img/banner3.png">
+					<img src="/resources/img/banner2.png">
 				</a>
 			</li>
 			<li class="slideitem">
 				<a>
-					<img src="/resources/img/banner4.png">
+					<img src="/resources/img/banner3.png">
 				</a>
 			</li>
 
