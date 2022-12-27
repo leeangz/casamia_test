@@ -63,7 +63,7 @@
 	height: 68px;
 	min-width: 320px;
 	align-items: center;
-	box-shadow: 0 1px 0 0 rgb(0 0 0 / 10%);
+	box-shadow: 0 1px 0 0 rgb(0 0 0/ 10%);
 }
 
 .header .logo {
@@ -80,8 +80,7 @@
 	margin-left: auto
 }
 
-.header .gnb_area,
-.header .gnb_list {
+.header .gnb_area, .header .gnb_list {
 	display: flex;
 	-webkit-box-align: center;
 	align-items: center
@@ -89,7 +88,7 @@
 
 .header .gnb_item {
 	margin-right: 40px;
-	display: flex;	
+	display: flex;
 }
 
 .header .gnb_item.gnb_on .gnb_link {
@@ -112,9 +111,7 @@
 	letter-spacing: -.15px
 }
 
-.header .gnb_link,
-.header .search_btn_box {
-	
+.header .gnb_link, .header .search_btn_box {
 	display: flex
 }
 
