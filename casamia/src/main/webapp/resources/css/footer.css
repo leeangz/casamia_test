@@ -1,3 +1,7 @@
+footer.new_guud {
+	padding-bottom: 40px;
+}
+
 footer.new_guud .footer_link {
 	width: 100%;
 	margin-bottom: 5px;
@@ -14,6 +18,7 @@ footer.new_guud .footer_left {
 	float: left;
 	width: calc(100% - 400px);
 	overflow: hidden;
+	margin-left: 40px;
 }
 
 footer.new_guud .footer_left .footer_menu li {
@@ -86,7 +91,6 @@ footer.new_guud .footer_left .footer_info li:before {
 }
 
 footer.new_guud .footer_left .copyright {
-	margin-left: 40px;
 	margin-top: 34px;
 	color: #a9a9a9;
 	font-size: 13px;

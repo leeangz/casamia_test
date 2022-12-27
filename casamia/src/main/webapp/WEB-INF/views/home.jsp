@@ -1,6 +1,7 @@
-
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<c:set var="contextPath" value="${PageContext.request.contextPath}"/>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +27,7 @@
 
 			<div container-index="1" class="shortcut_collection">
 				<!---->
-				<div class="shortcut_item_wrap">
+				<div class="shortcut_item_wraps">
 					<div class="shortcut_item">
 						<div class="shortcut_item_img_wrap">
 							<picture class="picture shortcut_item_img_bg"> <img
