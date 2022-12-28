@@ -4452,19 +4452,22 @@
 	letter-spacing: -.06px
 }
 
-.detail_price .price[data-v-67511fc2] {
+.detail_price .price1[data-v-67511fc2] {
 	-webkit-box-flex: 1;
-	flex: 1;
-	text-align: right
+	text-align: right;
 }
 
-.detail_price .price .discount_amount[data-v-67511fc2] {
+.detail_price .price1[data-v-67511fc2] {
+	-webkit-box-flex: 1;
+}
+
+.detail_price .price1 .discount_amount[data-v-67511fc2] {
 	line-height: 21px;
 	font-size: 18px;
 	letter-spacing: -.27px
 }
 
-.detail_price .price .discount_amount .discount_per[data-v-67511fc2] {
+.detail_price .price1 .discount_amount .discount_per[data-v-67511fc2] {
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 4px;
@@ -4473,20 +4476,53 @@
 	color: #f15746
 }
 
-.detail_price .price .discount_amount .num[data-v-67511fc2] {
+.item_inner .price .discount_amount .discount_per {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+    font-size: 18px;
+    letter-spacing: -.27px;
+    color: #f15746;
+}
+
+.item_inner .price .discount_amount .num {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 700;
+}
+
+.item_inner .price .discount_amount {
+    line-height: 21px;
+    font-size: 14px;
+    letter-spacing: -.27px;
+}
+
+.item_inner .price .origin_amount {
+    margin-top: 2px;
+    line-height: 16px;
+    font-size: 14px;
+    color: rgba(34, 34, 34, .5);
+}
+
+.item_inner .price {
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+
+.detail_price .price1 .discount_amount .num[data-v-67511fc2] {
 	display: inline-block;
 	vertical-align: top;
 	font-weight: 700
 }
 
-.detail_price .price .origin_amount[data-v-67511fc2] {
+.detail_price .price1 .origin_amount[data-v-67511fc2] {
 	margin-top: 2px;
 	line-height: 16px;
 	font-size: 0;
 	color: rgba(34, 34, 34, .5)
 }
 
-.detail_price .price .origin_amount .num[data-v-67511fc2], .detail_price .price .origin_amount .won[data-v-67511fc2]
+.detail_price .price1 .origin_amount .num[data-v-67511fc2], .detail_price .price .origin_amount .won[data-v-67511fc2]
 	{
 	text-decoration: line-through;
 	display: inline-block;
@@ -4494,7 +4530,7 @@
 	font-size: 13px
 }
 
-.detail_price .price .origin_amount .won[data-v-67511fc2] {
+.detail_price .price1 .origin_amount .won[data-v-67511fc2] {
 	letter-spacing: -.07px
 }
 
@@ -4970,7 +5006,7 @@
 }
 
 .review_section.tight_text .title[data-v-2e0c1d1d] {
-	font-size: 14px;
+	font-size: 20px;
 	letter-spacing: -.21px;
 	font-weight: 700
 }
@@ -5348,7 +5384,8 @@
 }
 
 .column:nth-child(2) .btn_wrap[data-v-77d20f30] {
-	padding-top: 18px
+	padding-top: 18px;
+	padding-bottom: 10px;
 }
 
 .column:nth-child(2) .delivery_way_wrap[data-v-77d20f30] {

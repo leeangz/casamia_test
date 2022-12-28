@@ -3,10 +3,8 @@
 	display: flex;
 	-webkit-box-align: center;
 	align-items: center;
-	line-height: 16px;
 	font-size: 13px;
 	letter-spacing: -.07px;
-	font-weight: 700;
 	color: #333
 }
 
@@ -75,7 +73,8 @@
 }
 
 .brand[data-v-c90cb1da] {
-	margin-bottom: 2px
+	margin-bottom: 2px;
+	padding-top: 5px;
 }
 
 .badge[data-v-c90cb1da] {
@@ -124,7 +123,7 @@
 }
 
 .price_area[data-v-7dab533a] {
-	margin-top: 12px
+	margin-top: 3px
 }
 
 .btn_wish[data-v-1e64e6de] {

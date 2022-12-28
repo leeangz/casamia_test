@@ -2013,9 +2013,12 @@
 
 .division_btn_box[data-v-23bbaa82] {
 	margin-top: 17px;
-	display: -webkit-box;
-	display: flex;
-	height: 60px
+	height: 60px;
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-column-gap: 10px;
+    margin-bottom: 10px;
 }
 
 .division_btn_box .btn_division[data-v-23bbaa82] {
@@ -2618,14 +2621,16 @@
 
 .btn.btn_wish.full[data-v-2d0ab5c1] {
 	height: 60px;
-	line-height: 58px
+	line-height: 58px;
+	background-color: #ef6253;
 }
 
 .btn.btn_wish .btn_text[data-v-2d0ab5c1] {
 	font-size: 15px;
 	letter-spacing: -.15px;
-	font-weight: 400;
-	letter-spacing: normal
+	letter-spacing: normal;
+	font-weight: 800;
+    color: #fff;
 }
 
 .btn.btn_wish .wish_count_num[data-v-2d0ab5c1] {

@@ -80,6 +80,26 @@ body {
 	grid-column-gap: 16px;
 }
 
+.shortcut_item_wrap1 {
+	margin: 0 auto;
+	padding-left: 16px;
+	padding-right: 16px;
+	max-width: 1280px;
+	display: grid;
+	grid-template-columns: repeat(5, minmax(0, 1fr));
+	grid-column-gap: 16px;
+}
+
+.shortcut_item_wrap2 {
+	margin: 0 auto;
+	padding-left: 16px;
+	padding-right: 16px;
+	max-width: 1280px;
+	display: grid;
+	grid-template-columns: repeat(9, minmax(0, 1fr));
+	grid-column-gap: 16px;
+}
+
 .product_title+.shortcut_item_wrap {
 	margin-top: 20px
 }

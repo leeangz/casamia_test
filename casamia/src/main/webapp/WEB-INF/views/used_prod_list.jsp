@@ -18,10 +18,87 @@
 		<div id="__layout">
 			<div tabindex="0" class="wrap win_os md" data-v-3007c576="">
 				<jsp:include page="includes/header.jsp"></jsp:include>
-				<!---->
+				<!-- shorcut collection -->
 				<div container-index="1" class="shortcut_collection">
 					<!---->
 					<div class="shortcut_item_wrap">
+						<div class="shortcut_item">
+							<div class="shortcut_item_img_wrap">
+								<picture class="picture shortcut_item_img_bg"> <img
+									src="/resources/img/pic1.png" class="image"> </picture>
+							</div>
+							<p class="shortcut_item_title">Second</p>
+						</div>
+						<div class="shortcut_item">
+							<div class="shortcut_item_img_wrap">
+								<picture class="picture shortcut_item_img_bg"> <img
+									src="/resources/img/pic2.png" class="image"> </picture>
+							</div>
+							<p class="shortcut_item_title">침대</p>
+						</div>
+						<div class="shortcut_item">
+							<div class="shortcut_item_img_wrap">
+								<picture class="picture shortcut_item_img_bg"> <img
+									src="/resources/img/pic3.png" class="image"> </picture>
+							</div>
+							<p class="shortcut_item_title">소파</p>
+						</div>
+						<div class="shortcut_item">
+							<div class="shortcut_item_img_wrap">
+								<picture class="picture shortcut_item_img_bg"> <img
+									src="/resources/img/pic4.png" class="image"> </picture>
+							</div>
+							<p class="shortcut_item_title">식탁</p>
+						</div>
+						<div class="shortcut_item">
+							<div class="shortcut_item_img_wrap">
+								<picture class="picture shortcut_item_img_bg"> <img
+									src="/resources/img/pic5.png" class="image"> </picture>
+							</div>
+							<p class="shortcut_item_title">의자</p>
+						</div>
+						<div class="shortcut_item">
+							<div class="shortcut_item_img_wrap">
+								<picture class="picture shortcut_item_img_bg"> <img
+									src="/resources/img/pic6.png" class="image"> </picture>
+							</div>
+							<p class="shortcut_item_title">옷장</p>
+						</div>
+						<div class="shortcut_item">
+							<div class="shortcut_item_img_wrap">
+								<picture class="picture shortcut_item_img_bg"> <img
+									src="/resources/img/pic7.png" class="image"> </picture>
+							</div>
+							<p class="shortcut_item_title">서랍장</p>
+						</div>
+						<div class="shortcut_item">
+							<div class="shortcut_item_img_wrap">
+								<picture class="picture shortcut_item_img_bg"> <img
+									src="/resources/img/pic8.png" class="image"> </picture>
+							</div>
+							<p class="shortcut_item_title">책상</p>
+						</div>
+						<div class="shortcut_item">
+							<div class="shortcut_item_img_wrap">
+								<picture class="picture shortcut_item_img_bg"> <img
+									src="/resources/img/pic9.png" class="image"> </picture>
+							</div>
+							<p class="shortcut_item_title">홈 인테리어</p>
+						</div>
+						<div class="shortcut_item">
+							<div class="shortcut_item_img_wrap">
+								<picture class="picture shortcut_item_img_bg"> <img
+									src="/resources/img/pic10.png" class="image"> </picture>
+							</div>
+							<p class="shortcut_item_title">전체보기</p>
+						</div>
+					</div>
+				</div>
+				<!-- /.shorcut collection -->
+				<!-- shorcut collection -->
+				<div container-index="2" class="shortcut_collection">
+					<!---->
+					<div class="shortcut_item_wrap2">
 						<div class="shortcut_item">
 							<div class="shortcut_item_img_wrap">
 								<picture class="picture shortcut_item_img_bg"> <img
@@ -51,7 +128,7 @@
 							<p class="shortcut_item_title">셀럽픽</p>
 						</div>
 						<div class="shortcut_item">
-							<div class="shortcut_item_img_wrap">
+							<div class="shortcut_item_img_wrap2">
 								<picture class="picture shortcut_item_img_bg"> <img
 									src="/resources/img/pic5.png" class="image"> </picture>
 							</div>
@@ -85,15 +162,9 @@
 							</div>
 							<p class="shortcut_item_title">겨울 코디</p>
 						</div>
-						<div class="shortcut_item">
-							<div class="shortcut_item_img_wrap">
-								<picture class="picture shortcut_item_img_bg"> <img
-									src="/resources/img/pic10.png" class="image"> </picture>
-							</div>
-							<p class="shortcut_item_title">수수료 할인</p>
-						</div>
 					</div>
 				</div>
+				<!-- /.shorcut collection -->
 				<div class="exhibition_items" data-v-4f87b95c="" data-v-352cdc90=""
 					data-v-3007c576="">
 					<div class="exhibition_item image" data-v-4f87b95c="">
@@ -115,8 +186,8 @@
 							class="exhibition_item_product_header exhibition_item_section"
 							data-v-6e9267c1="" data-v-4f87b95c="">
 							<div class="product_header_wrapper" data-v-6e9267c1="">
-								<h2 class="title" data-v-6e9267c1="">여성 추천 컬렉션</h2>
-								<p class="description" data-v-6e9267c1="">KREAM에서 추천하는 인기 상품</p>
+								<h2 class="title" data-v-6e9267c1="">소파</h2>
+								<p class="description" data-v-6e9267c1="">KABART에서 추천하는 인기 상품</p>
 							</div>
 						</div>
 					</div>
@@ -135,6 +206,7 @@
 										<picture data-v-321fc3b6="" data-v-09fbcf09=""
 											class="picture product_img"> <img alt=""
 											src="/resources/img/prod1.png" style="overflow: auto;"></picture>
+											<em data-v-09fbcf09="" class="stocked_status_mark"> PRIME </em>
 									</div>
 									<div class="product_info_area" data-v-c90cb1da="">
 										<div class="title" data-v-c90cb1da="">
@@ -145,13 +217,17 @@
 											</p>
 										</div>
 									</div>
-									<div class="price price_area" data-v-ef71e3ac=""
-										data-v-7dab533a="">
-										<p class="amount" data-v-ef71e3ac="">
-											<!---->
-											167,000원
-										</p>
-									</div></a>
+									<dd data-v-67511fc2="" class="price">
+										<div data-v-67511fc2="" class="discount_amount">
+											<em data-v-67511fc2="" class="discount_per">2%</em><span
+												data-v-67511fc2="" class="num">179,000</span><span
+												data-v-67511fc2="" class="won">원</span>
+										</div>
+										<div data-v-67511fc2="" class="origin_amount">
+											<span data-v-67511fc2="" class="num">182,000</span><span
+												data-v-67511fc2="" class="won">원</span>
+										</div>
+									</dd></a>
 							</div>
 							<!-- /.단일 상품 -->
 							<!-- 단일 상품 -->
@@ -173,13 +249,17 @@
 											</p>
 										</div>
 									</div>
-									<div class="price price_area" data-v-ef71e3ac=""
-										data-v-7dab533a="">
-										<p class="amount" data-v-ef71e3ac="">
-											<!---->
-											167,000원
-										</p>
-									</div></a>
+									<dd data-v-67511fc2="" class="price">
+										<div data-v-67511fc2="" class="discount_amount">
+											<em data-v-67511fc2="" class="discount_per">2%</em><span
+												data-v-67511fc2="" class="num">179,000</span><span
+												data-v-67511fc2="" class="won">원</span>
+										</div>
+										<div data-v-67511fc2="" class="origin_amount">
+											<span data-v-67511fc2="" class="num">182,000</span><span
+												data-v-67511fc2="" class="won">원</span>
+										</div>
+									</dd></a>
 							</div>
 							<!-- /.단일 상품 -->
 							<!-- 단일 상품 -->
@@ -201,13 +281,17 @@
 											</p>
 										</div>
 									</div>
-									<div class="price price_area" data-v-ef71e3ac=""
-										data-v-7dab533a="">
-										<p class="amount" data-v-ef71e3ac="">
-											<!---->
-											167,000원
-										</p>
-									</div></a>
+									<dd data-v-67511fc2="" class="price">
+										<div data-v-67511fc2="" class="discount_amount">
+											<em data-v-67511fc2="" class="discount_per">2%</em><span
+												data-v-67511fc2="" class="num">179,000</span><span
+												data-v-67511fc2="" class="won">원</span>
+										</div>
+										<div data-v-67511fc2="" class="origin_amount">
+											<span data-v-67511fc2="" class="num">182,000</span><span
+												data-v-67511fc2="" class="won">원</span>
+										</div>
+									</dd></a>
 							</div>
 							<!-- /.단일 상품 -->
 							<!-- 단일 상품 -->
@@ -229,13 +313,50 @@
 											</p>
 										</div>
 									</div>
-									<div class="price price_area" data-v-ef71e3ac=""
-										data-v-7dab533a="">
-										<p class="amount" data-v-ef71e3ac="">
-											<!---->
-											167,000원
-										</p>
-									</div></a>
+									<dd data-v-67511fc2="" class="price">
+										<div data-v-67511fc2="" class="discount_amount">
+											<em data-v-67511fc2="" class="discount_per">2%</em><span
+												data-v-67511fc2="" class="num">179,000</span><span
+												data-v-67511fc2="" class="won">원</span>
+										</div>
+										<div data-v-67511fc2="" class="origin_amount">
+											<span data-v-67511fc2="" class="num">182,000</span><span
+												data-v-67511fc2="" class="won">원</span>
+										</div>
+									</dd></a>
+							</div>
+							<!-- /.단일 상품 -->
+							<!-- 단일 상품 -->
+							<div class="product_card exhibition_product" data-v-19fda891=""
+								data-v-81b68464="">
+								<a href="/products/83946" class="item_inner" data-v-19fda891=""><div
+										class="product" style="background-color: #f4f4f4;"
+										data-v-09fbcf09="">
+										<picture data-v-321fc3b6="" data-v-09fbcf09=""
+											class="picture product_img"> <img alt=""
+											src="/resources/img/prod1.png" style="overflow: auto;"></picture>
+											<em data-v-09fbcf09="" class="stocked_status_mark"> PRIME </em>
+									</div>
+									<div class="product_info_area" data-v-c90cb1da="">
+										<div class="title" data-v-c90cb1da="">
+											<p class="product_info_brand brand" data-v-878934fe=""
+												data-v-c90cb1da="">
+												벨로씨 For casamiashop
+												<!---->
+											</p>
+										</div>
+									</div>
+									<dd data-v-67511fc2="" class="price">
+										<div data-v-67511fc2="" class="discount_amount">
+											<em data-v-67511fc2="" class="discount_per">2%</em><span
+												data-v-67511fc2="" class="num">179,000</span><span
+												data-v-67511fc2="" class="won">원</span>
+										</div>
+										<div data-v-67511fc2="" class="origin_amount">
+											<span data-v-67511fc2="" class="num">182,000</span><span
+												data-v-67511fc2="" class="won">원</span>
+										</div>
+									</dd></a>
 							</div>
 							<!-- /.단일 상품 -->
 							<!-- 단일 상품 -->
@@ -257,13 +378,17 @@
 											</p>
 										</div>
 									</div>
-									<div class="price price_area" data-v-ef71e3ac=""
-										data-v-7dab533a="">
-										<p class="amount" data-v-ef71e3ac="">
-											<!---->
-											167,000원
-										</p>
-									</div></a>
+									<dd data-v-67511fc2="" class="price">
+										<div data-v-67511fc2="" class="discount_amount">
+											<em data-v-67511fc2="" class="discount_per">2%</em><span
+												data-v-67511fc2="" class="num">179,000</span><span
+												data-v-67511fc2="" class="won">원</span>
+										</div>
+										<div data-v-67511fc2="" class="origin_amount">
+											<span data-v-67511fc2="" class="num">182,000</span><span
+												data-v-67511fc2="" class="won">원</span>
+										</div>
+									</dd></a>
 							</div>
 							<!-- /.단일 상품 -->
 							<!-- 단일 상품 -->
@@ -285,13 +410,17 @@
 											</p>
 										</div>
 									</div>
-									<div class="price price_area" data-v-ef71e3ac=""
-										data-v-7dab533a="">
-										<p class="amount" data-v-ef71e3ac="">
-											<!---->
-											167,000원
-										</p>
-									</div></a>
+									<dd data-v-67511fc2="" class="price">
+										<div data-v-67511fc2="" class="discount_amount">
+											<em data-v-67511fc2="" class="discount_per">2%</em><span
+												data-v-67511fc2="" class="num">179,000</span><span
+												data-v-67511fc2="" class="won">원</span>
+										</div>
+										<div data-v-67511fc2="" class="origin_amount">
+											<span data-v-67511fc2="" class="num">182,000</span><span
+												data-v-67511fc2="" class="won">원</span>
+										</div>
+									</dd></a>
 							</div>
 							<!-- /.단일 상품 -->
 							<!-- 단일 상품 -->
@@ -313,41 +442,17 @@
 											</p>
 										</div>
 									</div>
-									<div class="price price_area" data-v-ef71e3ac=""
-										data-v-7dab533a="">
-										<p class="amount" data-v-ef71e3ac="">
-											<!---->
-											167,000원
-										</p>
-									</div></a>
-							</div>
-							<!-- /.단일 상품 -->
-							<!-- 단일 상품 -->
-							<div class="product_card exhibition_product" data-v-19fda891=""
-								data-v-81b68464="">
-								<a href="/products/83946" class="item_inner" data-v-19fda891=""><div
-										class="product" style="background-color: #f4f4f4;"
-										data-v-09fbcf09="">
-										<picture data-v-321fc3b6="" data-v-09fbcf09=""
-											class="picture product_img"> <img alt=""
-											src="/resources/img/prod1.png" style="overflow: auto;"></picture>
-									</div>
-									<div class="product_info_area" data-v-c90cb1da="">
-										<div class="title" data-v-c90cb1da="">
-											<p class="product_info_brand brand" data-v-878934fe=""
-												data-v-c90cb1da="">
-												벨로씨 For casamiashop
-												<!---->
-											</p>
+									<dd data-v-67511fc2="" class="price">
+										<div data-v-67511fc2="" class="discount_amount">
+											<em data-v-67511fc2="" class="discount_per">2%</em><span
+												data-v-67511fc2="" class="num">179,000</span><span
+												data-v-67511fc2="" class="won">원</span>
 										</div>
-									</div>
-									<div class="price price_area" data-v-ef71e3ac=""
-										data-v-7dab533a="">
-										<p class="amount" data-v-ef71e3ac="">
-											<!---->
-											167,000원
-										</p>
-									</div></a>
+										<div data-v-67511fc2="" class="origin_amount">
+											<span data-v-67511fc2="" class="num">182,000</span><span
+												data-v-67511fc2="" class="won">원</span>
+										</div>
+									</dd></a>
 							</div>
 							<!-- /.단일 상품 -->
 

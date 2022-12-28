@@ -92,6 +92,7 @@
 /* 페이징 */
 .slide-pagelist {
 	text-align: center;
+    padding-top: 15px;
 }
 
 .slide-pagelist>li {

@@ -46,42 +46,20 @@
 										<div data-v-6e865099="" data-v-3900a1a2=""
 											class="detail_main_title md">
 											<div data-v-6e865099="" class="main_title_box">
-												<div data-v-6e865099="">
-													<a data-v-6e865099="" href="/brands/arc'teryx"
-														click.prevent="onClickBrand" class="brand"> Arc'teryx
-													</a>
-													<!---->
-												</div>
 												<p data-v-6e865099="" class="title">Arc'teryx Heliad 15
 													Backpack Black</p>
-												<p data-v-6e865099="" class="sub_title">아크테릭스 헬리아드 15 백팩
-													블랙</p>
 											</div>
 										</div>
 										<div data-v-3900a1a2="" class="product_figure_wrap md">
-											<div data-v-ddee2978="" data-v-3900a1a2=""
-												class="detail_size" title="ONE SIZE" option-title="사이즈">
-												<div data-v-ddee2978="" class="title">
-													<span data-v-ddee2978="" class="title_txt">사이즈</span>
-												</div>
-												<div data-v-ddee2978="" class="size">
-													<a data-v-6c6430ce="" data-v-ddee2978="" href="#"
-														class="btn_size inactive"><span data-v-6c6430ce=""
-														class="btn_text">ONE SIZE</span> <!----></a>
-												</div>
-											</div>
 											<div data-v-679b6792="" data-v-3900a1a2=""
 												class="detail_price">
 												<div data-v-679b6792="" class="title">
-													<span data-v-679b6792="" class="title_txt">최근 거래가</span>
+													<span data-v-679b6792="" class="title_txt">구매가</span>
 												</div>
 												<div data-v-679b6792="" class="price">
 													<div data-v-679b6792="" class="amount">
 														<span data-v-679b6792="" class="num">167,000</span><span
 															data-v-679b6792="" class="won">원</span>
-													</div>
-													<div data-v-679b6792="" class="fluctuation same">
-														<p data-v-679b6792="">0원 (0%)</p>
 													</div>
 												</div>
 											</div>
@@ -89,32 +67,22 @@
 										<div data-v-3900a1a2="" class="btn_wrap">
 											<div data-v-23bbaa82="" data-v-3900a1a2=""
 												class="division_btn_box md">
-												<a data-v-23bbaa82="" href="#" class="btn_division buy"><strong
-													data-v-23bbaa82="" class="title">구매</strong>
-													<div data-v-23bbaa82="" class="price">
-														<span data-v-23bbaa82="" class="amount"><em
-															data-v-23bbaa82="" class="num">169,000</em><span
-															data-v-23bbaa82="" class="won">원</span></span><span
-															data-v-23bbaa82="" class="desc">즉시 구매가</span>
-													</div></a><a data-v-23bbaa82="" href="#" class="btn_division sell"><strong
-													data-v-23bbaa82="" class="title">판매</strong>
-													<div data-v-23bbaa82="" class="price">
-														<span data-v-23bbaa82="" class="amount"><em
-															data-v-23bbaa82="" class="num">140,000</em><span
-															data-v-23bbaa82="" class="won">원</span></span><span
-															data-v-23bbaa82="" class="desc">즉시 판매가</span>
-													</div></a>
+												<div data-v-f40660fa="" data-v-77d20f30=""
+													class="detail_stock_btn">
+													<a data-v-6e799857="" data-v-f40660fa="" href="#"
+														class="btn solid full buy1 large"> 장바구니 </a>
+												</div>
+												<div data-v-f40660fa="" data-v-77d20f30=""
+													class="detail_stock_btn">
+													<a data-v-6e799857="" data-v-f40660fa="" href="#"
+														class="btn solid full sell large"> 중고 판매 </a>
+												</div>
 											</div>
-											<a data-v-6e799857="" data-v-2d0ab5c1="" data-v-3900a1a2=""
-												href="#" class="btn full outlinegrey large btn_wish"
-												aria-label="관심상품"><svg data-v-2d0ab5c1=""
-													xmlns="http://www.w3.org/2000/svg"
-													class="icon sprite-icons ico-wish-off">
-													<use data-v-2d0ab5c1=""
-														href="/_nuxt/3182c3b1ca2f77da7bc3e1acf109306c.svg#i-ico-wish-off"
-														xlink:href="/_nuxt/3182c3b1ca2f77da7bc3e1acf109306c.svg#i-ico-wish-off"></use></svg><span
-												data-v-2d0ab5c1="" class="btn_text">관심상품</span><span
-												data-v-2d0ab5c1="" class="wish_count_num">715</span></a>
+											<div data-v-f40660fa="" data-v-77d20f30=""
+												class="detail_stock_btn">
+												<a data-v-6e799857="" data-v-f40660fa="" href="#"
+													class="btn solid full buy large"> 구매하기 </a>
+											</div>
 										</div>
 									</div>
 									<div data-v-3900a1a2="" class="product_info_wrap">
@@ -161,31 +129,6 @@
 													</p>
 													<p data-v-12ba7144="" class="sub_text">검수 후 배송 ・ 5-7일 내
 														도착 예정</p>
-												</div>
-											</div>
-											<!---->
-										</div>
-										<div data-v-12ba7144="" data-v-3900a1a2=""
-											class="delivery_way">
-											<div data-v-12ba7144="" class="way_info">
-												<div data-v-12ba7144="" class="way_status_thumb">
-													<img data-v-12ba7144=""
-														src="https://kream-phinf.pstatic.net/MjAyMTExMjFfMjE5/MDAxNjM3NDczODM5MTg0.K9c0FOdeJAbdW_bXJhclA3yN45iwcP4kpqkaspFLEJAg.TeEwjmB0EDj7ll3uQVR4GRw5IRVCpQ8-iiibQEMf-KYg.PNG/a_f82951f1984b404db30b9c4fca4bd695.png"
-														alt="첫 30일 무료" class="way_img">
-												</div>
-												<div data-v-12ba7144="" class="way_desc">
-													<p data-v-12ba7144="" class="company">
-														<span data-v-12ba7144="" class="badge_title">창고보관 </span><span
-															data-v-12ba7144="" class="title">첫 30일 무료</span><a
-															data-v-12ba7144="" aria-label="배송안내"><svg
-																data-v-12ba7144="" xmlns="http://www.w3.org/2000/svg"
-																class="ico-help icon sprite-icons">
-																<use data-v-12ba7144=""
-																	href="/_nuxt/3182c3b1ca2f77da7bc3e1acf109306c.svg#i-ico-help"
-																	xlink:href="/_nuxt/3182c3b1ca2f77da7bc3e1acf109306c.svg#i-ico-help"></use></svg></a>
-													</p>
-													<p data-v-12ba7144="" class="sub_text">배송 없이 창고에 보관 ・
-														빠르게 판매 가능</p>
 												</div>
 											</div>
 											<!---->
@@ -292,7 +235,7 @@
 											<p data-v-4b0fda50="" class="size">275</p>
 											<p data-v-4b0fda50="" class="name">Nike Dunk Low Retro
 												Black</p>
-											
+
 										</div>
 										<div data-v-4b0fda50="" class="product_price">
 											<!---->
@@ -330,7 +273,7 @@
 											<p data-v-4b0fda50="" class="size">275</p>
 											<p data-v-4b0fda50="" class="name">Nike Dunk Low Retro
 												Black</p>
-											
+
 										</div>
 										<div data-v-4b0fda50="" class="product_price">
 											<!---->
@@ -405,7 +348,7 @@
 											<p data-v-4b0fda50="" class="size">275</p>
 											<p data-v-4b0fda50="" class="name">Nike Dunk Low Retro
 												Black</p>
-											
+
 										</div>
 										<div data-v-4b0fda50="" class="product_price">
 											<!---->
@@ -443,7 +386,7 @@
 											<p data-v-4b0fda50="" class="size">275</p>
 											<p data-v-4b0fda50="" class="name">Nike Dunk Low Retro
 												Black</p>
-											
+
 										</div>
 										<div data-v-4b0fda50="" class="product_price">
 											<!---->
@@ -481,7 +424,7 @@
 											<p data-v-4b0fda50="" class="size">275</p>
 											<p data-v-4b0fda50="" class="name">Nike Dunk Low Retro
 												Black</p>
-											
+
 										</div>
 										<div data-v-4b0fda50="" class="product_price">
 											<!---->
@@ -519,7 +462,7 @@
 											<p data-v-4b0fda50="" class="size">275</p>
 											<p data-v-4b0fda50="" class="name">Nike Dunk Low Retro
 												Black</p>
-											
+
 										</div>
 										<div data-v-4b0fda50="" class="product_price">
 											<!---->
@@ -588,7 +531,7 @@
 						</div>
 					</div>
 				</div>
-						<%@include file="includes/footer.jsp"%>
+				<%@include file="includes/footer.jsp"%>
 			</div>
 		</div>
 </body>
