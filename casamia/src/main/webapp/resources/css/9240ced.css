@@ -6,6 +6,15 @@
 .wrap[data-v-f4642190] {
 	margin: 0 auto
 }
+.shortcut_item_wrap {
+	margin: 0 auto;
+	padding-left: 16px;
+	padding-right: 16px;
+	max-width: 1280px;
+	display: grid;
+	grid-template-columns: repeat(10, minmax(0, 1fr));
+	grid-column-gap: 16px;
+}
 
 .container[data-v-f4642190] {
 	display: table;
