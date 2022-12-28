@@ -34,5 +34,9 @@ public class HomeController {
 	public void user_prod_detail() {
 		System.out.println("부중서 디테일");
 	}
+	@RequestMapping(value = "/used_prod_sell", method = RequestMethod.GET)
+	public void used_prod_sell() {
+		System.out.println("부중서 판매하기");
+	}
 
 }
